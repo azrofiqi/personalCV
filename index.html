@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/f2abf2edab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+</head>
+<body>
+    <div class="all">
+        <header>
+            <div class="container">
+                <nav id="nav-ul">
+                    <ul class="nav-ul">
+                        <li class="nav-li active">
+                            <i class="fas fa-user"></i>
+                            <a href="#about" class="link" data-filter="content-about">About</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-poll-h"></i>
+                            <a href="#resume" class="link" data-filter="content-resume">Resume</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-pencil-alt"></i>
+                            <a href="#portfolio" class="link" data-filter="content-portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fab fa-stack-exchange"></i>
+                            <a href="#blog" class="link" data-filter="content-blog">Blog</a>
+                        </li>
+                        <li class="nav-li">
+                            <i class="fas fa-envelope"></i>
+                            <a href="#contact" class="link" data-filter="content-contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content Section -->
+        <section>
+            <div class="container main-container">
+                <!-- profile section -->
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="imgs/Me.JPG" alt="Achmad Zufri Raufiqi">
+                    </div>
+                    <div class="profile-content">
+                        <h2>Achmad Zufri Raufiqi</h2>
+                        <p class="text-effect">Website Developer</p>
+                        <div class="profile-icons">
+                            <a href="https://twitter.com/ZufriRaufiqi" target="_blank">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                            <a href="https://github.com/azrofiqi" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                            <a href="https://web.facebook.com/achmadzufri.raufiqi/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/achmad-zufri-raufiqi-094653136/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/achmadzufri/" target="_blank">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </div>
+                        <div class="profile-cta my-border">
+                            <div><a href="https://bekasidev.org/member/azraufiqi.html" target="_blank">Bekasidev</a></div>
+                            <div><a href="https://wa.me/+6282298747980" target="_blank">Contact Me</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content section -->
+                <div class="content-all">
+                    <!-- content of about -->
+                    <div class="content content-about" id="about">
+                        <div class="content-header">
+                            <h2><span>About</span> Me <span>&rangle;</span><span>&rangle;</span><span>&rangle;</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <img src="imgs/Me-small1.png" alt="profile">
+                            <p><span class="text">Hello My Name's</span><span class="name"> Achmad Zufri Raufiqi.</span></p>
+                            <p>
+                            I'm a website developer from Bekasi, Indonesia. I have a lot of experience in website building and development, also i'm quite good on designing. I'm happy to get a little talk with you about our unique website development plans. </p>
+                        </div>
+                    </div>
+
+                    <!-- content of resume -->
+                    <div class="content content-resume" id="resume">
+                        <!-- my resume content -->
+                        <div class="content-header">
+                            <h2><span>My</span> Resume <span>&rangle;</span><span>&rangle;</span><span>&rangle;</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="resume">
+                                <div class="my-resume education">
+                                    <div class="title">
+                                        <h3>Education Journey</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2017-2022</p>
+                                            <div class="year-details">
+                                                <p class="year-title">Tech University</p>
+                                                <p class="year-desc">I am a graduate of informatics engineering at STMIK Muhammadiyah Jakarta which has now changed to Universitas SainTech Muhammadiyah since March 2022.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="my-resume experience">
+                                    <div class="title">
+                                        <h3>Working Experience</h3>
+                                    </div>
+                                    <div class="details">
+                                        <div class="specific-details">
+                                            <p class="year">2008-Now</p>
+                                            <div class="year-details">
+                                                <p class="year-title">Order Transport Management</p>
+                                                <p class="year-desc">I work as an Order Transport Management (OTM) admin at PT. Fastrata Buana since December 2008 until now.My job is based on the oracle system to handle fleet management of shipments to corporate customers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- adding line here -->
+                            <div class="content-line"></div>
+
+                            <!-- my skills content -->
+                            <div class="my-skills">
+                                <div class="title">
+                                    <h3>My Skills</h3>
+                                </div>
+                                <div class="skills">
+                                    <div class="skill">
+                                        <img src="imgs/html.png" alt="">
+                                        <p>HTML</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/css.png" alt="">
+                                        <p>CSS</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/js.png" alt="">
+                                        <p>JavaScript</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/bootstrap.png" alt="">
+                                        <p>Bootstrap</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/laravel.png" alt="">
+                                        <p>laravel</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/git.png" alt="">
+                                        <p>Git</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/php.png" alt="">
+                                        <p>Php</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/postgre.png" alt="">
+                                        <p>Postgre</p>
+                                    </div>
+                                    <div class="skill">
+                                        <img src="imgs/mysql.png" alt="">
+                                        <p>MySql</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- content of portfolio -->
+                    <div class="content content-portfolio" id="portfolio">
+                        <div class="content-header">
+                            <h2><span>My</span> Portfolio <span>&rangle;</span><span>&rangle;</span><span>&rangle;</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="portfolio">
+                                <div class="portfolio-item">
+                                    <img src="./imgs/portfolio.png" alt="">
+                                    <p class="portfolio-title">
+                                        Web Design Project
+                                    </p>
+                                    <p class="portfolio-desc">
+                                        I've done some work on designing a website for several individuals and several companies for company profiles and portfolios in Bekasi and abroad.
+                                    </p>
+                                    <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                    <img src="./imgs/portfolio1.png" alt="">
+                                    <p class="portfolio-title">
+                                        Mobile App Design
+                                    </p>
+                                    <p class="portfolio-desc">
+                                        I've done some work on designing mobile android applications for several individuals and several companies in Bekasi and outside.
+                                    </p>
+                                    <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                    <img src="./imgs/portfolio2.png" alt="">
+                                    <p class="portfolio-title">
+                                        Login UI Project
+                                    </p>
+                                    <p class="portfolio-desc">
+                                        Designing UI logins for several company websites and personal websites to provide a more attractive appearance for website users.
+                                    </p>
+                                    <a href="#">&rarr; View Project</a>
+                                </div>
+                                <div class="portfolio-item">
+                                    <img src="./imgs/portfolio3.png" alt="">
+                                    <p class="portfolio-title">
+                                        Website Development
+                                    </p>
+                                    <p class="portfolio-desc">
+                                        Build a website for personal or company according to the needs and desires from beginning to end by prioritizing customer satisfaction in building the website.
+                                    </p>
+                                    <a href="#">&rarr; View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- content of blog -->
+                    <div class="content content-blog" id="blog">
+                        <div class="content-header">
+                            <h2><span>New</span> Blog <span>&rangle;</span><span>&rangle;</span><span>&rangle;</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="blog">
+                                <div class="blog-post">
+                                    <img src="./imgs/blog.png" alt="">
+                                    <p class="post-title">
+                                        How To Get Started With Programming
+                                    </p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem soluta blanditiis reprehenderit ipsa amet sunt obcaecati laboriosam aperiam laborum ipsam, dolore veniam id quis exercitationem dicta cumque nemo fugiat nam.
+                                    </p>
+                                    <a href="#">&rarr; Read Details</a>
+                                </div>
+                                <div class="blog-post">
+                                    <img src="./imgs/blog1.png" alt="">
+                                    <p class="post-title">
+                                        How To Become a Better Programmer
+                                    </p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem soluta blanditiis reprehenderit ipsa amet sunt obcaecati laboriosam aperiam laborum ipsam, dolore veniam id quis exercitationem dicta cumque nemo fugiat nam.
+                                    </p>
+                                    <a href="#">&rarr; Read Details</a>
+                                </div>
+                                <div class="blog-post">
+                                    <img src="./imgs/blog.png" alt="">
+                                    <p class="post-title">
+                                        How To Design a Premium Website
+                                    </p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem soluta blanditiis reprehenderit ipsa amet sunt obcaecati laboriosam aperiam laborum ipsam, dolore veniam id quis exercitationem dicta cumque nemo fugiat nam.
+                                    </p>
+                                    <a href="#">&rarr; Read Details</a>
+                                </div>
+                                <div class="blog-post">
+                                    <img src="./imgs/blog1.png" alt="">
+                                    <p class="post-title">
+                                        How To Build Your Own Website
+                                    </p>
+                                    <p class="post-desc">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem soluta blanditiis reprehenderit ipsa amet sunt obcaecati laboriosam aperiam laborum ipsam, dolore veniam id quis exercitationem dicta cumque nemo fugiat nam.
+                                    </p>
+                                    <a href="#">&rarr; Read Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- content of contact -->
+                    <div class="content content-contact" id="contact">
+                        <div class="content-header">
+                            <h2><span>Contact</span> Me <span>&rangle;</span><span>&rangle;</span><span>&rangle;</span></h2>
+                        </div>
+                        <div class="content-details">
+                            <div class="contact">
+                                <div class="contact-details">
+                                    <p class="title">Address</p>
+                                    <p>Bekasi, Indonesia</p>
+                                    <img src="./imgs/white-line.PNG" alt="">
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Email</p>
+                                    <p>azrofiqi@gmail.com</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Phone</p>
+                                    <p>+62822 9874 7980</p>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="title">Freelance</p>
+                                    <p>Available</p>
+                                </div>
+                            </div>
+                            <div class="content-line"></div>
+                            <!-- Contact Form Here -->
+                            <div class="contact-form">
+                                <div class="title">
+                                    <h3>Contact Form</h3>
+                                </div>
+                                <form action="">
+                                    <div class="form-input">
+                                        <input type="text" placeholder="Name">
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <textarea cols="30" rows="10"></textarea>
+                                    <input type="submit" value="Send Message">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <footer>
+        <p class="footer-text">
+            Copyright &copy; Achmad Zufri raufiqi | 2022
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
